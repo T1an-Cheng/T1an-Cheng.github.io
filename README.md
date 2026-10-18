@@ -7,15 +7,14 @@ A small, dependency-free academic homepage. GitHub Pages serves the root of the 
 ## Edit
 
 - `index.html`: biography, research, background, links, and last-updated date.
-- `style.css`: responsive layout, colors, light/dark themes, and print styling.
-- `script.js`: theme switch with local preference persistence.
-- `assets/favicon.svg`: original open-window icon.
+- `style.css`: responsive layout, permanent dark palette, and print styling.
+- `assets/favicon.svg`: monochrome initials icon.
 
 ## Preview
 
 Run `python -m http.server 8765 --bind 127.0.0.1` in this directory and visit http://127.0.0.1:8765/.
 
-The page works without JavaScript; JavaScript only enables the theme button. No external fonts, analytics, or build dependencies are used.
+The page uses a permanent dark theme and works without JavaScript. Author details expand using native HTML. No external fonts, analytics, or build dependencies are used.
 
 ## Content sources
 
